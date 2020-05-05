@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(120deg,#e2c35d,#d88771);
+    background-image: linear-gradient(120deg,#e25e5d,#8b4245);;
     font-family: 'Inconsolata', sans-serif;
     min-height: 100vh;
 }
@@ -28,13 +28,13 @@ form input, form button{
 }
 
 form button{
-    color:#d88771;
+    color:#e25e5d;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 form button:hover{
-    background: #d88771;
+    background: #e25e5d;
     color:white;
 }
 
@@ -62,7 +62,7 @@ form button:hover{
     flex:1;
 }
 .trash-btn, .completed-btn{
-    background: #ff6f47;
+    background: #e25e5d;
     color: white;
     border:none;
     cursor:pointer;
@@ -104,7 +104,7 @@ select{
     overflow: hidden;
 }
 select{
-    color: #ff6f47;
+    color: #e25e5d;
     width:10rem;
     cursor:pointer;
     padding:1rem;
@@ -112,7 +112,7 @@ select{
 .select::after{
     content:"\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #e25e5d;
     color: white;
     top:0;
     right:0;
@@ -122,5 +122,5 @@ select{
 }
 .select:hover::after{
     background: white;
-    color:#ff6f47;
+    color:#e25e5d;
 }
