@@ -124,3 +124,22 @@ select{
     background: white;
     color:#e25e5d;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #e25e5d;
+      background-image: none;
+    }
+    form input{
+        width: 45vw;
+    }
+    select{
+        font-size: 1rem;
+        width:6rem;
+    }
+    form input, form button{
+        font-size: 1.3rem;
+    }
+    .todo{
+        font-size: 1.2rem;
+    }
+}
