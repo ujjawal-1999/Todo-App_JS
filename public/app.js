@@ -1,4 +1,4 @@
-localStorage.clear();//Selectors
+//Selectors
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
@@ -131,7 +131,8 @@ function getTodos(){
         trashButton.classList.add('trash-btn');
         todoDiv.appendChild(trashButton);
         //Append to the list
-        todoList.appendChild(todoDiv); 
+        // todoList.appendChild(todoDiv);
+        todoList.insertBefore(todoDiv,todoList.childNodes[0]);
     })
 }
 
