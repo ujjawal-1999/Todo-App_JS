@@ -134,7 +134,7 @@ select{
     }
     select{
         font-size: 1rem;
-        width:6rem;
+        width:3rem;
     }
     form input, form button{
         font-size: 1.3rem;
